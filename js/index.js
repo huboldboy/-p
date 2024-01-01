@@ -25,7 +25,7 @@ var S = {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
       // 倒计时修改这句中的数字，不需要倒计时删除“|#countdown 3|”，换内容修改文字
-      S.UI.simulate('|#countdown 5||祝|老师们|同学们|2024|新|年|快|乐|#circle|Are you ready?|Let’s go|');
+      S.UI.simulate('|#countdown 5||祝|陈叔叔|工作上顺势顺意|生活上幸福美满|2|0|2|4|#circle|Are you ready?|陈叔叔新年快乐|');
     }
 
     S.Drawing.loop(function () {
